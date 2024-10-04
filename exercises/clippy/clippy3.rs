@@ -6,7 +6,7 @@
 
 use std::mem::swap;
 
-#[allow(unused_variables, unused_assignments)]
+#[allow(unused_variables, unused_assignments, dead_code)]
 fn main() {
     let my_option: Option<()> = None;
     if let Some(x) = my_option {}
